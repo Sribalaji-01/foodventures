@@ -7,3 +7,27 @@ p{
     text-shadow: 25cap;
     text-align: center;
 }
+a._1T-E4{
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    height: 100%;
+    margin-left: -28px;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    text-decoration: none;
+}
