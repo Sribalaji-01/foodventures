@@ -1,33 +1,121 @@
 h1{
-    color: red;
-    font-style: italic;
-}
-p{
-    letter-spacing:0.02cm;
-    text-shadow: 25cap;
+    color: rgb(255, 196, 0);
+    font-size: 75px;
+    font-family: monospace;
+    font-weight: bold;
     text-align: center;
+    margin-top: 0%;
 }
-a._1T-E4{
-    line-height: 1.2;
-    -webkit-font-smoothing: antialiased;
-    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
-    letter-spacing: 0;
-    list-style-type: none;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    -webkit-text-size-adjust: none;
-    -webkit-tap-highlight-color: transparent;
-    outline: none;
-    cursor: pointer;
-    background-color: transparent;
-    height: 100%;
-    margin-left: -28px;
-    color: inherit;
+.logo{
+    height: 100px;
+    width: 100px;
+    
+    margin-top: 0%;
+    margin-left: 0%; 
+}
+a{
+    color: palegreen;
+    font-size: 69px;
+    text-align:right;
+    margin: 1790px;
+}
+.home {
+    text-align: center;
+    padding: 2rem;
     display: flex;
     align-items: center;
-    padding-left: 28px;
-    text-decoration: none;
+    justify-content: contain;
+    background-size:contain;
+    background-position: contain !important;
+    min-height: 45rem;
+}
+div{
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    padding: 50px;
+}
+#tour {
+    margin-left: 275px;
+}
+#tour {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #ffffff;
+    z-index: 1;
+    background: #060606;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+  
+#tour::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #ffffff;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+   
+#tour:hover {
+    color: #000000;
+}
+   
+#tour:hover::before {
+    width: 100%;
+}
+
+#hotel {
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+#hotel {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #ffffff;
+    z-index: 1;
+    background: #000000;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+  
+#hotel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #ffffff;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+   
+#hotel:hover {
+    color: #000000;
+}
+   
+#hotel:hover::before {
+    width: 100%;
 }
