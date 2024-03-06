@@ -2,10 +2,18 @@ h1{
     color: rgb(255, 196, 0);
     font-size: 75px;
     font-family: monospace;
+<<<<<<< HEAD
+=======
+
+>>>>>>> a3a1bcd375220b286856120bd56e6c6a44168373
     font-weight: bold;
     text-align: center;
     margin-top: 0%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a3a1bcd375220b286856120bd56e6c6a44168373
 .logo{
     height: 100px;
     width: 100px;
@@ -32,6 +40,10 @@ a{
     text-align:right;
     margin: 1790px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a3a1bcd375220b286856120bd56e6c6a44168373
 .home {
     text-align: center;
     padding: 2rem;
@@ -45,6 +57,97 @@ a{
 div{
     color: rgb(0, 0, 0);
     font-size: 80px;
+<<<<<<< HEAD
+=======
+    padding: 50px;
+}
+#tour {
+    margin-left: 275px;
+}
+#tour {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #ffffff;
+    z-index: 1;
+    background: #060606;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+  
+#tour::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #ffffff;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+   
+#tour:hover {
+    color: #000000;
+}
+   
+#tour:hover::before {
+    width: 100%;
+}
+
+#hotel {
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+#hotel {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #ffffff;
+    z-index: 1;
+    background: #000000;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+  
+#hotel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #ffffff;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+   
+#hotel:hover {
+    color: #000000;
+}
+   
+#hotel:hover::before {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+>>>>>>> a3a1bcd375220b286856120bd56e6c6a44168373
     padding: 50px;
 }
 
@@ -118,6 +221,7 @@ div{
     transition: all 250ms;
     overflow: hidden;
     text-align: center;
+<<<<<<< HEAD
     display: inline-block;
     margin: 4px 2px; /* Margin */
     cursor: pointer;
@@ -149,4 +253,12 @@ div{
    
 .hotel:hover::before {
     width: 100%;
+=======
+    font-family: cursive;
+    margin-top:auto;
+    /* margin: 150px; */
+    padding: 150px;
+    /* width: 200px; */
+
+>>>>>>> a3a1bcd375220b286856120bd56e6c6a44168373
 }
