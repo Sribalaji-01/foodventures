@@ -13,6 +13,19 @@ h1{
     margin-top: 0%;
     margin-left: 0%; 
 }
+
+
+.container {
+    margin-top: 220px;
+    width: 100%; /* Set the width of the container */
+    height: 45vh; /* Set the height of the container */
+    background-image: url('C:/Users/Sanjay/Desktop/foodventures/bg1.jpg'); /* Specify the background image */
+    background-size: contain; /* Ensure the background image covers the entire container */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image */
+  }
+
+
 a{
     color: palegreen;
     font-size: 69px;
@@ -34,26 +47,38 @@ div{
     font-size: 80px;
     padding: 50px;
 }
-#tour {
-    margin-left: 275px;
-}
-#tour {
+
+
+
+
+
+.tour {
     padding: 15px 25px;
-    border: unset;
+    border: none;
     border-radius: 15px;
     color: #ffffff;
     z-index: 1;
     background: #060606;
-    position: relative;
+    position: absolute;
     font-weight: 1000;
     font-size: 17px;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     transition: all 250ms;
     overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px; /* Margin */
+    cursor: pointer;
+    left: 8cm; /* Align to the left side of the page */
+    top: 50%; /* Align vertically to the middle */
+    transform: translateY(-50%);
+    top: 5cm;
+    background-repeat: no-repeat;
+
 }
   
-#tour::before {
+.tour::before {
     content: "";
     position: absolute;
     top: 0;
@@ -68,36 +93,42 @@ div{
     transition: all 250ms
 }
    
-#tour:hover {
+.tour:hover {
     color: #000000;
 }
    
-#tour:hover::before {
+.tour:hover::before {
     width: 100%;
 }
 
-#hotel {
-    margin-left: 600px;
-    margin-top: 100px;
-}
 
-#hotel {
+
+.hotel {
     padding: 15px 25px;
-    border: unset;
+    border: none;
     border-radius: 15px;
     color: #ffffff;
     z-index: 1;
-    background: #000000;
-    position: relative;
+    background: #060606;
+    position: absolute;
     font-weight: 1000;
     font-size: 17px;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     transition: all 250ms;
     overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px; /* Margin */
+    cursor: pointer;
+    left: 30cm; /* Align to the left side of the page */
+    top: 50%; /* Align vertically to the middle */
+    transform: translateY(-50%);
+    top: 5cm;
+    background-repeat: no-repeat;
 }
   
-#hotel::before {
+.hotel::before {
     content: "";
     position: absolute;
     top: 0;
@@ -112,10 +143,10 @@ div{
     transition: all 250ms
 }
    
-#hotel:hover {
+.hotel:hover {
     color: #000000;
 }
    
-#hotel:hover::before {
+.hotel:hover::before {
     width: 100%;
 }
